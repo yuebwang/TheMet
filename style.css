@@ -7,20 +7,28 @@ section.art {
     position: relative;
 }
 
+
 img {
     object-fit: contain;
     width: 100vw;
     height: 100vh;
 }
 
-p.caption {
+p.caption,
+p.intro {
     z-index: 1;
     color: #333;
     position: fixed;
     left: 0;
     bottom: 0;
     margin: 32px;
-    font-size: 8vmin;
+    font-size: 4vmin;
     line-height: 1.2;
+    font-weight: 500;
 }
 
+p.intro {
+    font-size: 2vmin;
+    top: 0;
+    font-weight: 700;
+}
