@@ -22,13 +22,13 @@ p.intro {
     left: 0;
     bottom: 0;
     margin: 32px;
-    font-size: 4vmin;
+    font-size: 8vmin;
     line-height: 1.2;
     font-weight: 500;
 }
 
 p.intro {
-    font-size: 2vmin;
+    font-size: 4vmin;
     top: 0;
     font-weight: 700;
 }
